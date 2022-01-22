@@ -34,9 +34,42 @@ body{
     display: table-cell;
     vertical-align: middle;
     text-align:center;
+    padding-top: 50px;
 }
 p{
-    max-width: 450px;
-    font-size: 40px;
-    margin: 25px;;
+    max-width: 900px;
+    font-size: 25px;
+    margin-left: 280px;;
+}
+
+h2{
+    margin-left: 240px;; 
+}
+.line{
+    background-color: black;
+    height: 10px;
+    width: 200px;
+    margin-left: 600px;
+ }
+  #bio{
+     margin-left: 10px;
+ }
+ 
+ #section2{
+     background-color: grey;
+ }
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+ marquee{
+     text-align: center;
+     font-size: 30px;
+ }
+ .nav_my_class{
+    position: sticky;
+    top:0;
+    z-index:999
 }
